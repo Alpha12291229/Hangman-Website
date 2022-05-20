@@ -36,13 +36,16 @@ class Hangman extends Component {
 
             //Adding Letter to list of letters wrong if wrong
             wrongguessed: x.wrongguessed + (x.answer.includes(letter) ? "" : letter)
+			
 		}));
 
         //Changing Colour of Buttons once guessed
         document.getElementById(letter).classList.add("btn-light")
         document.getElementById(letter).classList.remove("btn-primary")
+		
 	}
         
+	
 	guessedWord(){
 		return this.state.answer.split("").map(letter =>  (this.state.guessed.has(letter) ? letter : " _ "));
 	}
@@ -81,6 +84,12 @@ class Hangman extends Component {
 		if(gameWon){
 			display = "You Won!!"
 		}
+		
+		//Clicks the button based on Keyboard Input
+		document.addEventListener("keydown", function onPress(event) {
+			document.getElementById(event.key).click();
+		});
+		
 		
 		return(
 			<div className="Hangman container">
