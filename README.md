@@ -1,7 +1,12 @@
 Hangman Website
 
-`npm start`:
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+How to run:
+1.	Use any IDE with REACT installed.
+2.	Open hangman-master in any IDE with REACT installed
+3.	Run “npm start” in terminal 
+4.	Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-
-
+How to play:
+1.	Guess the words using the virtual keyboard provided or using own physical keyboard.
+2.	To win the game, guess the right word without the hangman completing.
+3.	Reset the game if lose/won using RESET button at the bottom.
