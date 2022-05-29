@@ -7,6 +7,6 @@ How to run:
 4.	Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 How to play:
-1.	Guess the words using the virtual keyboard provided or using own physical keyboard.
-2.	To win the game, guess the right word without the hangman completing.
-3.	Reset the game if lose/won using RESET button at the bottom.
+1.	Guess the letters of the word using the virtual keyboard provided or using own physical keyboard.
+2.	To win the game, guess the right word with less than 5 incorrect letters.
+3.	Reset the game using RESET button at the bottom.
