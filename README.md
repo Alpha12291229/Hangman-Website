@@ -1,5 +1,7 @@
 # Hangman Website
 
+Created to learn more about React
+
 ## How to run:
 1.	Use any IDE with REACT installed.
 2.	Open hangman-master in any IDE with REACT installed
